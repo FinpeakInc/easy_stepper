@@ -171,8 +171,7 @@ class EasyStepper extends StatefulWidget {
     this.alignment = Alignment.center,
     this.fitWidth = true,
     this.showScrollbar = true,
-    this.padding =
-        const EdgeInsetsDirectional.symmetric(horizontal: 10, vertical: 10),
+    this.padding = const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
     this.internalPadding = 8,
     this.stepAnimationCurve = Curves.linear,
     this.stepAnimationDuration = const Duration(seconds: 1),
