@@ -118,7 +118,7 @@ class EasyStepper extends StatefulWidget {
   final double internalPadding;
 
   /// The amount of padding around the stepper.
-  final EdgeInsetsDirectional padding;
+  final EdgeInsets padding;
 
   /// The animation effect to show when a step is reached.
   final Curve stepReachedAnimationEffect;
@@ -199,8 +199,7 @@ class EasyStepper extends StatefulWidget {
         this.lineDotRadius,
     this.lineThickness = 1,
     this.lineSpace = 5,
-    this.padding =
-        const EdgeInsetsDirectional.symmetric(horizontal: 10, vertical: 10),
+    this.padding = const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
     this.internalPadding = 8,
     @Deprecated("use 'stepAnimationCurve' instead, This feature was deprecated after v0.1.4+1")
         this.stepReachedAnimationEffect = Curves.linear,
